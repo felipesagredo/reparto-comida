@@ -1,0 +1,40 @@
+.caja-fd {
+    background: rgba(255, 127, 127, 0.333);
+    margin: 2vw 2vh;
+    max-width: 25vw;
+    max-height: 400vh;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+
+ul{
+    width: 25vw;
+    overflow: scroll;
+    max-height: 25vh;
+    min-height: 25vh;
+}
+
+li {
+    width: max-content;
+}
+
+input {
+    margin: 2vw;
+    width: 75%;
+}
+
+.btn-fd {
+    width: fit-content;
+}
+
+::-webkit-scrollbar {
+    width: 2vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #1584b0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #0a2a4d;
+}

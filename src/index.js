@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import FoodDelivery from './FoodDelivery';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <div className='cont-app'>
     <App />
+    </div>
+    
+    <div className='cont-fd'> 
+      <FoodDelivery/>
+    </div>
   </React.StrictMode>
 );
 
