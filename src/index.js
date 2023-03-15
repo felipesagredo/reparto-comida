@@ -8,11 +8,11 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className='cont-app'>
+    <div>
     <App />
     </div>
     
-    <div className='cont-fd'> 
+    <div> 
       <FoodDelivery/>
     </div>
   </React.StrictMode>

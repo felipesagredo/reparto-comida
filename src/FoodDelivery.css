@@ -1,40 +1,88 @@
+.caja-main{
+    display: flex;
+    background-color: #1584b0;
+}
+
 .caja-fd {
-    background: rgba(255, 127, 127, 0.333);
-    margin: 2vw 2vh;
-    max-width: 25vw;
-    max-height: 400vh;
+    background: rgba(255, 251, 127);
+    margin: auto;
     text-align: center;
+    width: 30vw;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 2vh;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.caja-contenedor-img {
+    background: rgba(255, 127, 127);
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    border-radius: 20px;
     padding-bottom: 2vh;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
-
-ul{
-    width: 25vw;
-    overflow: scroll;
-    max-height: 25vh;
-    min-height: 25vh;
-}
-
-li {
-    width: max-content;
-}
-
-input {
-    margin: 2vw;
-    width: 75%;
-}
-
 .btn-fd {
     width: fit-content;
 }
 
+.caja-fd img{
+    border-radius: 30px;
+    max-width: 90%;
+    max-height: 100%;
+    padding-right: 0px;
+    margin-right: 30px;
+}
+
+.imagen{
+    background-color: aquamarine;
+    max-width: 90%;
+    max-height: 100%;
+    background-size: cover;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.ul-caja{
+    background-color: bisque;
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 2vh;
+    overflow: scroll;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+
+li {
+    
+    max-width: 100%;
+    height: fit-content;
+}
+
+input {
+    max-width: 100%;
+}
+
 ::-webkit-scrollbar {
-    width: 2vw;
+    width: 1vw;
 }
 
-::-webkit-scrollbar-track {
-    background: #1584b0;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #0a2a4d;
-}
+@media only screen and (max-width: 450px) {
+    /* Estilos para pantallas con ancho máximo de 768px (por ejemplo, smartphones) */
+    .caja-fd {
+        background: rgba(255, 251, 127);
+        margin: auto;
+        width: 80vw;
+        height: 500px;
+        text-align: center;
+        padding-bottom: 2vh;
+    }
+    li {
+    
+        max-width: 90%;
+        height: fit-content;
+    }
+  }
