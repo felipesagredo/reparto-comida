@@ -7,7 +7,7 @@
     background: rgb(255, 255, 255);
     margin: auto;
     text-align: center;
-    width: 60vw;
+    width: 30vw;
     height: fit-content;
     padding: 2vh;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
@@ -78,6 +78,43 @@ input {
         background: rgb(255, 255, 255);
         margin: auto;
         width: 80vw;
+        height: fit-content;
+        text-align: center;
+        padding-bottom: 5vh;
+    }
+    .ul-caja{
+        background-color: rgb(255, 255, 255);
+        list-style: none;
+        text-align: left;
+        padding: 0;
+        padding-top: 10px;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+        overflow: visible;
+        border-radius: 20px;        
+    }
+    .texto {
+        background-color: azure;
+        border-radius: 10px;
+        padding: 10px;
+        margin: auto;
+    }
+
+    li {
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+        max-width: 100%;
+        margin-bottom: 50px;
+        height: fit-content;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    /* Estilos para pantallas con ancho máximo de 768px (por ejemplo, smartphones) */
+    .caja-fd {
+        background: rgb(255, 255, 255);
+        margin: auto;
+        width: 40vw;
         height: fit-content;
         text-align: center;
         padding-bottom: 5vh;
