@@ -34,6 +34,8 @@ export default function FoodDelivery() {
       <div className='caja-fd'>
 
         <div className='caja-contenedor-img'>
+        <a>Sube una Imagen o Video</a>
+        
           <input type="file" onChange={handleImagenSeleccionada} />
         </div>
 
@@ -50,7 +52,9 @@ export default function FoodDelivery() {
         
         {todos.map(item =>(
           <li key={item.id}>
+          <p className='texto'>
           {item.id+1}.-{item.text}{console.log(item)}
+          </p>
           <img className='imagen' src={imagen} alt="Descripcion de la imagen"/>
           </li>
         ))}

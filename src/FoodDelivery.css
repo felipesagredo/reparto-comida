@@ -4,18 +4,18 @@
 }
 
 .caja-fd {
-    background: rgba(255, 251, 127);
+    background: rgb(255, 255, 255);
     margin: auto;
     text-align: center;
-    width: 30vw;
+    width: 60vw;
     height: fit-content;
     padding: 2vh;
-    border-radius: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
 }
 
 .caja-contenedor-img {
-    background: rgba(255, 127, 127);
+    background: rgb(255, 255, 255);
+    margin-bottom: 10px;
     max-width: 100%;
     max-height: 100%;
     text-align: center;
@@ -28,69 +28,83 @@
 }
 
 .caja-fd img{
-    border-radius: 30px;
-    max-width: 90%;
+    max-width: 100%;
     max-height: 100%;
-    padding-right: 0px;
-    margin-right: 30px;
 }
 
 .imagen{
     background-color: aquamarine;
-    max-width: 90%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 100%;
     max-height: 100%;
     background-size: cover;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+.texto {
+    background-color: azure;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
 }
 
 .ul-caja{
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    padding-top: 10px;
     max-width: 100%;
     max-height: 100%;
-    padding-bottom: 2vh;
-    overflow: scroll;
-    text-align: left;
-    border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    overflow: visible;    
 }
 
-
 li {
-    
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
+    background-color: #1584b0;
+    padding-top: 30px;
     max-width: 100%;
-    height: fit-content;
+    border-radius: 20px;
+    margin-bottom: 50px;
 }
 
 input {
     max-width: 100%;
 }
 
-::-webkit-scrollbar {
-    width: 1vw;
-}
-
 @media only screen and (max-width: 450px) {
     /* Estilos para pantallas con ancho máximo de 768px (por ejemplo, smartphones) */
     .caja-fd {
-        background: rgba(255, 251, 127);
+        background: rgb(255, 255, 255);
         margin: auto;
         width: 80vw;
         height: fit-content;
         text-align: center;
-        padding-bottom: 4vh;
+        padding-bottom: 5vh;
     }
     .ul-caja{
-        background-color: bisque;
+        background-color: rgb(255, 255, 255);
+        list-style: none;
+        text-align: left;
+        padding: 0;
+        padding-top: 10px;
+        margin: auto;
         max-width: 100%;
         max-height: 100%;
-        padding-bottom: 4vh;
-        overflow: scroll;
-        text-align: left;
-        border-radius: 20px;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+        overflow: visible;
+        border-radius: 20px;        
     }
+    .texto {
+        background-color: azure;
+        border-radius: 10px;
+        padding: 10px;
+        margin: auto;
+    }
+
     li {
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.6);
         max-width: 100%;
+        margin-bottom: 50px;
         height: fit-content;
     }
   }
